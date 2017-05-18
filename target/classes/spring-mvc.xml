@@ -9,7 +9,11 @@
                         http://www.springframework.org/schema/context/spring-context-3.1.xsd  
                         http://www.springframework.org/schema/mvc  
                         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
-	<context:component-scan base-package="saberlife.controller" />
+
+    <!-- 依赖注入扫描 -->
+	<context:component-scan base-package="saberlife" />
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler />
 
     <bean id="mappingJacksonHttpMessageConverter"
           class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
@@ -28,17 +32,15 @@
         </property>
     </bean>
 
+    <!--
 	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
-	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF" />
-		<property name="suffix" value=".jsp" />
-	</bean>
 	
 	<bean id="multipartResolver"
         class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
         <property name="defaultEncoding" value="utf-8" />
         <property name="maxUploadSize" value="10485760000" />
         <property name="maxInMemorySize" value="40960" />
-    </bean> 
+    </bean>
+    -->
 
 </beans>
