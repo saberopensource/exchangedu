@@ -53,4 +53,14 @@ public class UserPOJO {
     public void setCompanyname(String companyname) {
         this.companyname = companyname;
     }
+
+    @Override
+    public String toString() {
+        return "UserPOJO{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", companyname='" + companyname + '\'' +
+                '}';
+    }
 }

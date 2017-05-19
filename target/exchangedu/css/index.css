@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/index.jpg);
+    text-align: center;
+
+}
+
+div {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: 100%,100%;
+
+}
+
+button{
+    height: 61px;
+    width: 200px;
+}
+
+#button-loginedu{
+    background-color: chartreuse;
+}
+
+#button-registered{
+    background-color: aquamarine;
+}
