@@ -1,0 +1,11 @@
+css :样式设计
+例如：a:hover
+            {
+                background-color:yellow;
+            }
+     标签a 悬停后背景眼色将会修改成黄色
+
+      background-color: rgba(240, 255, 255, 0.3);背景眼色设置  0.3代表透明度 240，255，255 代表相应的色差
+      background-image：url(),url(),...   可以设置多个背景图片 用，隔开
+      background-position: 属性设置背景图像的起始位置
+      background-repeat: 属性设置是否及如何重复背景图像

@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>登陆界面</title>
+    <link href="../css/loginedu.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+<div id="divCenter">
+    <p id="p1" align="center"><img src="../img/brid.png"></p>
+    <form method="" action="">
+        <p><label class="label_input">用户名</label><input type="text" id="username" class="input_css"></p>
+        <p><label class="label_input">密&nbsp&nbsp&nbsp码</label><input type="text" id="password" class="input_css"></p>
+        <div id="login_control">
+            <input type="button" id="btn_login" value="登录" onclick="login();"/>
+            <a id="forget_pwd" href="changePassword.html">忘记密码？</a>
+        </div>
+    </form>
+</div>
 </body>
 </html>
