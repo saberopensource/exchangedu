@@ -9,5 +9,6 @@ import saberlife.pojo.UserPOJO;
  * If you don't konw it,Please ask Google
  */
 public interface IUserService {
-    public UserPOJO getUserMessage(String username);
+    public UserPOJO getUserMessage(int id);
+    public void addUser();
 }

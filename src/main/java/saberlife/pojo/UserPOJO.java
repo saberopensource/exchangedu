@@ -8,18 +8,16 @@ package saberlife.pojo;
  */
 public class UserPOJO {
     private int id;
-    private String username;
+    private String phoneNum;
     private String password;
-    private String companyname;
 
     public UserPOJO() {
     }
 
-    public UserPOJO(int id, String username, String password, String companyname) {
+    public UserPOJO(int id, String phoneNum, String password, String companyname) {
         this.id = id;
-        this.username = username;
+        this.phoneNum = phoneNum;
         this.password = password;
-        this.companyname = companyname;
     }
 
     public int getId() {
@@ -30,12 +28,12 @@ public class UserPOJO {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getphoneNum() {
+        return phoneNum;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setphoneNum(String phoneNum) {
+        this.phoneNum = phoneNum;
     }
 
     public String getPassword() {
@@ -46,21 +44,12 @@ public class UserPOJO {
         this.password = password;
     }
 
-    public String getCompanyname() {
-        return companyname;
-    }
-
-    public void setCompanyname(String companyname) {
-        this.companyname = companyname;
-    }
-
     @Override
     public String toString() {
         return "UserPOJO{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
+                ", phoneNum='" + phoneNum + '\'' +
                 ", password='" + password + '\'' +
-                ", companyname='" + companyname + '\'' +
                 '}';
     }
 }

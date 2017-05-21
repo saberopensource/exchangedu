@@ -36,10 +36,16 @@ public class UserController {
 
     @RequestMapping("/get")
     public void getUserValue(HttpServletResponse response) throws IOException {
-        String a = "bt";
+        int a = 1;
         UserPOJO userPOJO = iUserService.getUserMessage(a);
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("a",userPOJO);
         response.getWriter().write(jsonObject.toString());
+    }
+
+    @RequestMapping("/addUser")
+    public void addUser(HttpServletRequest request,HttpServletResponse response) throws IOException{
+        request.getParameter("p");
+        iUserService.addUser();
     }
 }

@@ -35,7 +35,7 @@ public class MybatisTest {
 
     @Test
     public void test1() {
-        UserPOJO user = IUserService.getUserMessage("haha");
+        UserPOJO user = IUserService.getUserMessage(1);
         // System.out.println(user.getUserName());
         // logger.info("值："+user.getUserName());
         logger.info(JSON.toJSONString(user));

@@ -3,18 +3,17 @@
 <mapper namespace="saberlife.dao.UserDao" >
     <resultMap id="user" type="saberlife.pojo.UserPOJO" >
         <id column="id" property="id" jdbcType="INTEGER" />
-        <result column="username" property="username" jdbcType="VARCHAR" />
+        <result column="username" property="phoneNum" jdbcType="VARCHAR" />
         <result column="password" property="password" jdbcType="VARCHAR" />
-        <result column="companyname" property="companyname" jdbcType="VARCHAR" />
     </resultMap>
     <sql id="userlist" >
-        id, username, password, companyname
+        id, phoneNum, password
     </sql>
-    <select id="selectUserMessage" resultMap="user" parameterType="String" >
+    <select id="selectUserMessage" resultMap="user" parameterType="int" >
         SELECT
         <include refid="userlist" />
         FROM user
-        WHERE username = #{username,jdbcType=VARCHAR}
+        WHERE id = #{id,jdbcType=INTEGER}
     </select>
      
 </mapper>
