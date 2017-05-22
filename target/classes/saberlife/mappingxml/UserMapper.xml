@@ -3,7 +3,7 @@
 <mapper namespace="saberlife.dao.UserDao" >
     <resultMap id="user" type="saberlife.pojo.UserPOJO" >
         <id column="id" property="id" jdbcType="INTEGER" />
-        <result column="username" property="phoneNum" jdbcType="VARCHAR" />
+        <result column="phoneNum" property="phoneNum" jdbcType="VARCHAR" />
         <result column="password" property="password" jdbcType="VARCHAR" />
     </resultMap>
     <sql id="userlist" >
@@ -15,5 +15,10 @@
         FROM user
         WHERE id = #{id,jdbcType=INTEGER}
     </select>
+
+    <insert id="addUser" useGeneratedKeys="true"
+            keyProperty="id">
+        INSERT INTO user (phoneNum,password) VALUE (#{phoneNum},#{password})
+    </insert>
      
 </mapper>
