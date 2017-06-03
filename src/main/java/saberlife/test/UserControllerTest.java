@@ -16,21 +16,11 @@ import java.io.IOException;
  * If you don't konw it,Please ask Google
  */
 public class UserControllerTest {
-    @Resource
-    private HttpUtilServlet httpUtilServlet;
+    HttpUtilServlet httpUtilServlet = new HttpUtilServlet();
 
     @Test
     public void test(){
-//        UserController controller = new UserController();
-//        String b = controller.getUserValue();
-//        System.out.println(b);
-//        try{
-//            String a = httpUtilServlet.HttpUtilServletDoGET("localhost:8080/user/get");
-//            System.out.println(a);
-//        }catch (Exception e){
-//            System.out.println(e.toString());
-//            e.printStackTrace();
-//        }
-//
+       String a =  httpUtilServlet.HttpUtilServletDoGET("http://localhost:8080/user/get");
+        System.out.println(a);
     }
 }

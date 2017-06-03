@@ -16,11 +16,12 @@ public class IODemo2 {
         File file = new File(dir);
         String str[] = null;
         if (file.isDirectory()){
+            //打印路径   list 方法就是返回路径
             str = file.list();
-            for (Object o : str){
-                dg(dir+"\\"+o);
+            for (Object o : str) {
+                dg(dir + "\\" + o);
             }
-        }else {
+        } else {
             System.out.println(dir);
         }
     }
