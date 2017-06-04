@@ -19,6 +19,8 @@ public class UserControllerTest {
     HttpUtilServlet httpUtilServlet = new HttpUtilServlet();
 
     @Test
+
+    // 测试get 请求成功  得先开启tomcat
     public void test(){
        String a =  httpUtilServlet.HttpUtilServletDoGET("http://localhost:8080/user/get");
         System.out.println(a);
