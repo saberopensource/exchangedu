@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197b98e2-a916-495d-b389-c5cee985356d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/saberlife/socket/b/JFTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/saberlife/socket/b/JFTest.jfd" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/dao/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/pojo/UserPOJO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/service/IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/socket/a/Begin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/socket/a/ChatManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/socket/a/ChatSocket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/socket/a/ServerListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/socket/b/MainWindows.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/team/IODemo1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/team/IODemo2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/team/IODemo3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/team/MethodSX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/test/HttpCGAPTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/test/MybatisTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/test/UserControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/util/HttpClientGetAndPost.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/saberlife/util/HttpUtilServlet.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/exchangedu/WEB-INF/classes/saberlife/socket/b/MainWindows.class" afterPath="$PROJECT_DIR$/target/exchangedu/WEB-INF/classes/saberlife/socket/b/MainWindows.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.form" afterPath="$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchangedu.iml" afterPath="$PROJECT_DIR$/exchangedu.iml" />
     </list>
     <ignored path="exchangedu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,13 +91,51 @@
       <file leaf-file-name="MainWindows.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="395">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#727#768#1" expanded="true" />
+                <element signature="e#777#826#0" expanded="true" />
+                <element signature="e#777#826#0" expanded="true" />
+                <element signature="e#836#888#0" expanded="true" />
+                <element signature="e#836#888#0" expanded="true" />
+                <element signature="e#920#942#0" expanded="true" />
+                <element signature="e#920#942#0" expanded="true" />
+                <element signature="e#1001#1023#0" expanded="true" />
+                <element signature="e#1014#1022#0" expanded="true" />
+                <element signature="e#1001#1023#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JFTest.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/JFTest.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state paletteWidth="150" propertiesWidth="312" structureHeight="312" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JFTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/JFTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#719#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#228#229#0" expanded="false" />
+                <element signature="e#260#261#0" expanded="false" />
+                <marker date="1496715843123" expanded="false" signature="307:552" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection" pinned="false" current-in-tab="false">
+        <entry file="db://4a0a7d35-54e2-4f8d-9e2d-550e8aba22f6/console#Connection">
+          <provider selected="true" editor-type-id="0.CONSOLE">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" current-schema="test" />
           </provider>
         </entry>
       </file>
@@ -155,8 +222,10 @@
         <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/a/Begin.java" />
         <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/a/ServerListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/a/ChatSocket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.java" />
         <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.form" />
+        <option value="[Connection] CONSOLE - Connection" />
+        <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/saberlife/socket/b/TestJForm.jfd" />
       </list>
     </option>
   </component>
@@ -246,6 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -555,10 +625,6 @@
               <option name="myItemId" value="b" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainWindows" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -587,10 +653,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="socket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -836,14 +898,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/index.html" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -877,7 +938,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainWindows">
+  <component name="RunManager" selected="JUnit.MybatisTest.test1">
     <configuration default="false" name="HttpCGAPTest.TestGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -891,32 +952,6 @@
       <option name="PACKAGE_NAME" value="saberlife.test" />
       <option name="MAIN_CLASS_NAME" value="saberlife.test.HttpCGAPTest" />
       <option name="METHOD_NAME" value="TestGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="HttpClientGetAndPost.httpClientGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="saberlife.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="exchangedu" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="saberlife.util" />
-      <option name="MAIN_CLASS_NAME" value="saberlife.util.HttpClientGetAndPost" />
-      <option name="METHOD_NAME" value="httpClientGet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -994,6 +1029,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="exchangedu" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MybatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saberlife.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="exchangedu" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="saberlife.test" />
+      <option name="MAIN_CLASS_NAME" value="saberlife.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false">
@@ -1096,6 +1157,14 @@
           <artifact name="exchangedu:war exploded" />
         </option>
       </method>
+    </configuration>
+    <configuration default="true" type="#com.seventh7.widget.iedis.run.IedisConfigurationType" factoryName="Redis Lua Script">
+      <option name="DATABASE" value="0" />
+      <option name="CONFIG_ID" value="0" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="PRINT_REDIS_CALL" value="false" />
+      <option name="USE_SYNC" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -1239,6 +1308,33 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\Windows\system32\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command" show_console_on_std_err="false" show_console_on_std_out="false">
+      <parameters>
+        <option name="additionalArguments">
+          <list />
+        </option>
+        <option name="backtraceMode" value="2" />
+        <option name="channel" value="0" />
+        <option name="command" value="run" />
+        <option name="environmentVariables">
+          <map />
+        </option>
+        <option name="nocapture" value="true" />
+      </parameters>
+      <module />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -1840,28 +1936,23 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="exchangedu:war exploded" />
-        </option>
-      </method>
+      <method />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestGet" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HttpClientGetAndPost.httpClientGet" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestPost" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Begin" />
-      <item index="5" class="java.lang.String" itemvalue="Application.MainWindows" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestPost" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Begin" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MainWindows" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MybatisTest.test1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainWindows" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Begin" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestPost" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestGet" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HttpClientGetAndPost.httpClientGet" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MybatisTest.test1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainWindows" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Begin" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestPost" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HttpCGAPTest.TestGet" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1927,13 +2018,25 @@
       <workItem from="1496482598308" duration="3392000" />
       <workItem from="1496538934074" duration="6631000" />
       <workItem from="1496549517866" duration="12015000" />
+      <workItem from="1496650550051" duration="452000" />
+      <workItem from="1496651028516" duration="132000" />
+      <workItem from="1496651910892" duration="134000" />
+      <workItem from="1496652409568" duration="573000" />
+      <workItem from="1496653391862" duration="921000" />
+      <workItem from="1496673025373" duration="63000" />
+      <workItem from="1496673122223" duration="84000" />
+      <workItem from="1496673237373" duration="79000" />
+      <workItem from="1496673419994" duration="669000" />
+      <workItem from="1496714022334" duration="285000" />
+      <workItem from="1496714630036" duration="292000" />
+      <workItem from="1496715574565" duration="144000" />
+      <workItem from="1496715793582" duration="327000" />
+      <workItem from="1496716169746" duration="67000" />
+      <workItem from="1496716354456" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpCGAPTest_TestGet - 2017.06.04 at 09h 50m 46s.xml">
-      <configuration name="HttpCGAPTest.TestGet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HttpCGAPTest_TestGet - 2017.06.04 at 09h 54m 07s.xml">
       <configuration name="HttpCGAPTest.TestGet" configurationId="JUnit" />
     </history-entry>
@@ -1961,9 +2064,21 @@
     <history-entry file="HttpClientGetAndPost_httpClientGet - 2017.06.04 at 09h 51m 35s.xml">
       <configuration name="HttpClientGetAndPost.httpClientGet" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MybatisTest_test1 - 2017.06.05 at 16h 47m 54s.xml">
+      <configuration name="MybatisTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107713000" />
+    <option name="totallyTimeSpent" value="112107000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1972,9 +2087,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4069264" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33078602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40611354" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1991,28 +2108,34 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74647886" sideWeight="0.4936034" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4073673" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4073673" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.4927798" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1917735" sideWeight="0.4927798" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.503792" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5072202" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2071,60 +2194,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/note/ssmMessage">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/teachingforyou/WEB-INF/classes/saberlife/controller/UserController.class" />
-    <entry file="file://$PROJECT_DIR$/target/teachingforyou/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="102" lean-forward="false" selection-start-line="0" selection-start-column="102" selection-end-line="0" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/note/session">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/changePassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -2180,22 +2249,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/mappingxml/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <marker date="1495342003168" expanded="true" signature="629:732" ph="SELECT FROM user" />
-            <marker date="1495342003168" expanded="true" signature="835:903" ph="INSERT INTO user... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2275,7 +2332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="80" column="50" lean-forward="false" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2283,10 +2339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#242#243#0" expanded="false" />
-            <element signature="e#268#269#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2301,7 +2353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2309,9 +2360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2322,7 +2370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4994">
           <caret line="227" column="34" lean-forward="false" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2330,7 +2377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2352,9 +2398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2376,7 +2419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2384,10 +2426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1518#1538#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2395,7 +2433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2403,10 +2440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2414,9 +2447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="29" column="71" lean-forward="false" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2424,15 +2454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#526#538#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2440,11 +2461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
           <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2453,13 +2469,58 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/TestJForm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/TestJForm.jfd" />
+    <entry file="db://[Connection] CONSOLE - Connection">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" current-schema="test" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/fsaf.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/fsaf.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/JFTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#719#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+            <marker date="1496715843123" expanded="false" signature="307:552" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/sfas.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/sfas.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/JFTest.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="150" propertiesWidth="312" structureHeight="312" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/saberlife/socket/b/MainWindows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="395">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#727#768#1" expanded="true" />
+            <element signature="e#777#826#0" expanded="true" />
+            <element signature="e#777#826#0" expanded="true" />
+            <element signature="e#836#888#0" expanded="true" />
+            <element signature="e#836#888#0" expanded="true" />
+            <element signature="e#920#942#0" expanded="true" />
+            <element signature="e#920#942#0" expanded="true" />
+            <element signature="e#1001#1023#0" expanded="true" />
+            <element signature="e#1014#1022#0" expanded="true" />
+            <element signature="e#1001#1023#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2609,5 +2670,15 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
   </component>
 </project>
