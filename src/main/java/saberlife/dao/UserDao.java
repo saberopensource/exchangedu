@@ -9,6 +9,6 @@ import saberlife.pojo.UserPOJO;
  * If you don't konw it,Please ask Google
  */
 public interface UserDao {
-    UserPOJO selectUserMessage(int id);
-    void addUser();
+    public UserPOJO selectUserMessage(int id);
+    public void addUser();
 }
