@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var A,B;
+        var array = new Array();
+        var a = '{"Id":"10","Name":"Matt"}';
+        JSON.parse(a,function (k,v) {
+            if (k === "Id"){
+                A = v;
+            }
+            if(k==="Name"){
+                B = v;
+            }
+        });
+        console.log("A:"+A,"B:"+B);
+    </script>
+</body>
+</html>
